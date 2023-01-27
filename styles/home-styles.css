@@ -1,0 +1,90 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar-top
+{
+	width: 100%;
+	background-color: grey;
+	display: flex;
+}
+
+.footer
+{
+	width: 100%;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-link
+{
+	text-decoration: none;
+	color: black;
+	font-size: large;
+	padding: 1rem;
+}
+
+.footer-link
+{
+	text-decoration: none;
+	color: black;
+	font-size: small;
+	padding: 1rem;
+}
+
+.content
+{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.content-default
+{
+	width: 100%;
+}
+
+.content-info
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content-quote
+{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3{
+	margin: 0;
+}
+
+.seuss-quote
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: min(7vw, 7vh);
+	font-style: italic;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+	margin: 0;
+}
+
+.seuss-signature
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: min(4vw, 4vh);
+	padding-left: 25vw;
+	margin: 0;
+}
